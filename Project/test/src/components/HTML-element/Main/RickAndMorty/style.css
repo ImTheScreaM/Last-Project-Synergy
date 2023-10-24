@@ -1,0 +1,136 @@
+span {
+	color: rgb(158, 158, 158);
+}
+
+.da {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30vh;	
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 700px;
+}
+
+.rick_and_morty{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.rick_and_morty button{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container {
+	background: rgb(60, 62, 68);
+	border-radius: 20px;
+	height: 310px;
+}
+
+.CharacterCard {
+	display: flex;
+}
+
+.CharacterCardImg img {
+	height: 310px;
+	border-radius: 20px 0px 0px 20px;
+	margin: 0px 20px 0px 0px;
+}
+
+.CharacterCardInfo {
+	display: grid;
+	justify-content: center;
+	gap: 5px;
+	padding: 20px; 
+	color: white;
+
+}
+
+.charac_name {
+	color: white;
+	font-size: 30px;
+}
+
+
+.status {
+	font-size: 16px;
+}
+
+.status {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.dead {
+	background: red;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+
+.alive {
+	background: green;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.unknow {
+	background: rgb(0, 0, 0);
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.status p,.last_loc,.first_see{
+	font-size: 16px;
+}
+
+.get_button {
+	border-radius: 50px;
+	height: 30px;
+	width: 400px;
+}
+
+@media (max-width: 577px) {
+	.CharacterCard {
+		display: grid;
+		border-radius: 50px;
+		gap: 50px;
+	}
+	.CharacterCardInfo {
+		gap: 20px;
+	}
+	.container {
+		background: initial;
+	}
+	.CharacterCardImg img {
+		border-radius: 50px;
+		max-width: 100%;
+		margin: 0px;
+	}
+	.container-cards {
+		display: grid;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+		background: rgb(60, 62, 68);
+		border-radius: 50px;
+	}
+	.get_button {
+		width: 200px;
+	}
+	.rick_and_morty {
+		gap: 20px;
+		align-items: center;
+	}
+}

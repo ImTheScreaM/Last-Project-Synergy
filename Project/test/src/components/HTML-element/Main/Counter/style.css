@@ -1,0 +1,36 @@
+.count-container {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15vh;
+	gap: 15px;
+}
+
+.count-container h3{
+	font-size: 35px;
+}
+
+.count-button-container button{
+	border: none;
+	font-size: 25px;
+}
+
+.count-button-container {
+	display: flex;
+	gap: 15px;
+	justify-content: center;
+}
+
+.count-button-container button:nth-child(n) {
+	border: 1px solid grey;
+	width: 55px;
+	border-radius: 25px;
+}
+
+.view-count {
+	border: 1px solid grey;
+	font-size: 20px;
+}

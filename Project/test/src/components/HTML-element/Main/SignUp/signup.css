@@ -1,0 +1,53 @@
+.register-form {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3vh;
+	gap: 5%;
+}
+
+label {
+	font-size: 30px;
+}
+
+.register-form button {
+	width: 200px;
+	height: 50px;
+	border: none;
+	color: white;
+	border-radius: 50px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.btn-register-accaunt {
+	background: green;
+}
+
+.btn-login-accaunt {
+	background: grey;
+}
+
+.register-form input {
+	width: 500px;
+	height: 30px;
+	background: #f1f1f1;
+	border: none;
+	padding: 15px;
+}
+
+.register-form input:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.label {
+	display: grid;
+	gap: 5%;
+	align-items: center;
+}
+ 
+
+span {
+	color: red;
+}

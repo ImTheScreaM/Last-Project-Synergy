@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+	font-family: Titillium Web;
+}
+
+.home-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 5vh;
+	font-size: 20px;
+}
+
+.change-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 0px 10px;
+}

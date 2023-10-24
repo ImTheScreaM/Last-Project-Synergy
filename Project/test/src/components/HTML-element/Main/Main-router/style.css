@@ -1,0 +1,9 @@
+.Main {
+	margin-top: 10vh;
+}
+
+@media screen and (max-width: 550px) {
+  .Main {
+		margin-top: 53%;
+	}
+}
