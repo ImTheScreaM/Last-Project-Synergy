@@ -6,7 +6,7 @@ const User = () => {
 	const [password, setPassword] = useLocalStorage('PASSWORD')
 
 	const LogoutUserValue = () => {
-		if (confirm('Deleted?')) {
+		if (confirm('Logout?')) {
 			setUser('')
 			setPassword('')
 			location.reload()
